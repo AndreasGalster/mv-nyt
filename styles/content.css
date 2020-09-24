@@ -96,6 +96,43 @@
   line-height: 1.55;
 }
 
+#subscribe-cta {
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+  line-height: 0.9;
+  font-family: var(--sans-font);
+  margin: 50px 0;
+}
+
+#subscribe-cta a {
+  display: block;
+  color: var(--nyt-primary);
+  text-decoration: none;
+  position: relative;
+}
+
+#subscribe-cta::before,
+#subscribe-cta::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#subscribe-cta::before {
+  bottom: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+#subscribe-cta::after {
+  top: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
 #columns p {
   font-family: var(--sans-font);
 }
@@ -164,6 +201,7 @@
 
 .story-highlight figcaption {
   font-size: 13.5px;
+  font-family: var(--serif-font);
   color: var(--nyt-grey-text);
   margin: 7px 0 40px 0;
 }

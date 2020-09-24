@@ -1,7 +1,6 @@
 #recommendations {
   display: grid;
   grid-template-columns: [left] 5fr [middle] 2fr [right];
-  grid-template-rows: 2fr;
   grid-gap: 40px;
   margin-bottom: 80px;
 }
