@@ -1,7 +1,8 @@
 {
   "scripts": {
     "lint": "hint . && stylelint '**/*.{css,scss}'",
-    "prettier-format": "prettier --config .prettierrc.json './*.html' './**/*.css' --write"
+    "prettier-format": "prettier --config .prettierrc.json './*.html' './**/*.css' --write",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Firefox Developer Edition'"
   },
   "husky": {
     "hooks": {
@@ -9,6 +10,7 @@
     }
   },
   "devDependencies": {
+    "browser-sync": "^2.26.12",
     "browsersync": "^0.0.1-security",
     "hint": "^6.1.0",
     "husky": "^4.3.0",
