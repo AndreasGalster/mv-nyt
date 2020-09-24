@@ -31,13 +31,15 @@ header a {
   font-weight: 500;
 }
 
+#comments button,
 #header-buttons button {
   background: var(--nyt-primary);
   color: white;
   border: none;
   border-radius: 3px;
-  padding: 6px 8px;
+  padding: 7px 8px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   margin-left: 10px;
 }
