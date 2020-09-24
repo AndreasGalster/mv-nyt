@@ -37,6 +37,7 @@
   font-size: 18px;
   line-height: 1.4;
 }
+
 #popular-posts li a:hover {
   opacity: 0.7;
 }
