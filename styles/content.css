@@ -1,0 +1,104 @@
+#title-area h1 {
+  font-family: var(--serif-font);
+  font-style: italic;
+  font-size: 35px;
+  margin: 50px 0 30px 0;
+}
+
+#main-image {
+  width: 100%;
+}
+
+.wide-content {
+  max-width: 945px;
+}
+
+.narrow-content {
+  max-width: 600px;
+}
+
+.wide-content,
+.narrow-content {
+  margin: 0 auto;
+  position: relative;
+}
+
+.wide-content #columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.column img {
+  width: 100%;
+}
+
+.column em {
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 20px;
+}
+
+#main-content p {
+  font-family: var(--serif-font);
+}
+
+#columns p {
+  font-family: var(--sans-font);
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+
+#social-media-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  color: black;
+  background: var(--nyt-grey-bg);
+  border: 1px solid var(--nyt-grey-bg);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.social-icon,
+.far {
+  margin-left: 8px;
+}
+
+.social-icon:hover {
+  background: white;
+  border: 1px solid var(--nyt-grey-bg);
+}
+
+.fa-bookmark,
+.fa-comment-alt {
+  color: var(--nyt-grey-text);
+  font-size: 28px;
+}
+
+.comments-count {
+  position: relative;
+}
+
+.comments-count span {
+  position: absolute;
+  font-size: 12px;
+  top: calc(50% - 3px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
