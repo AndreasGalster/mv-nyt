@@ -12,6 +12,7 @@ header {
   justify-content: space-between;
   padding: 0 15px;
   border-bottom: 1px solid var(--nyt-grey-bg);
+  z-index: 1000;
 }
 
 header div {
