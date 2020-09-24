@@ -78,39 +78,3 @@ footer a:hover {
   display: flex;
   justify-content: space-around;
 }
-
-.posts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px 35px;
-}
-
-.posts img {
-  width: 100%;
-}
-
-#recommendations {
-  display: grid;
-  grid-template-columns: [left] 3fr [middle] 1fr [right];
-  grid-template-rows: 2fr;
-  grid-gap: 20px;
-}
-
-#related-posts {
-  grid-column: left / middle;
-  grid-row: 1 / span 1;
-}
-
-#editors-picks {
-  grid-column: left / middle;
-  grid-row: 2 / span 1;
-}
-
-#popular-posts {
-  grid-column: middle / right;
-  grid-row: 1 / span 2;
-}
-
-#popular-posts li a {
-  display: block;
-}
