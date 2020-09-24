@@ -1,3 +1,9 @@
+:root {
+  --nyt-primary: rgb(86, 123, 149);
+  --nyt-grey-text: #666;
+  --nyt-grey-bg: #eee;
+}
+
 body {
   margin: 0;
 }
