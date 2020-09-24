@@ -9,6 +9,7 @@
     }
   },
   "devDependencies": {
+    "browsersync": "^0.0.1-security",
     "hint": "^6.1.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",

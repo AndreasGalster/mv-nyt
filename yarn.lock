@@ -1507,6 +1507,11 @@ browserslist@^4.11.1, browserslist@^4.12.0:
     escalade "^3.0.2"
     node-releases "^1.1.61"
 
+browsersync@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/browsersync/-/browsersync-0.0.1-security.tgz#e885fe4354d2ec5a565c38c4c2bf0a012ad64860"
+  integrity sha1-6IX+Q1TS7FpWXDjEwr8KASrWSGA=
+
 buffer-crc32@~0.2.3:
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
