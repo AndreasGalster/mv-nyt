@@ -13,7 +13,6 @@
     "browser-sync": "^2.26.12",
     "browsersync": "^0.0.1-security",
     "hint": "^6.1.0",
-    "browsersync": "^0.0.1-security",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "stylelint": "13.3.x",
