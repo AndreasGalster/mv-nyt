@@ -23,6 +23,11 @@
   font-weight: 600;
 }
 
+#explainer {
+  color: var(--nyt-grey-text);
+  margin: -13px 0 30px 0;
+}
+
 #date {
   font-size: 13px;
 }
