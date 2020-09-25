@@ -18,12 +18,9 @@
   margin-right: 10px;
 }
 
-#editors-pick-sidebar li {
+#editors-pick-sidebar a {
   display: flex;
   align-items: center;
-}
-
-#editors-pick-sidebar a {
   color: black;
   text-decoration: none;
   font-family: var(--serif-font);
