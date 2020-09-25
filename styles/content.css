@@ -44,19 +44,19 @@
   font-family: var(--sans-font);
 }
 
-.wide-content {
-  max-width: 945px;
-  margin-top: 55px !important;
-}
-
-.narrow-content {
-  max-width: 600px;
-}
-
 .wide-content,
 .narrow-content {
   margin: 0 auto;
   position: relative;
+}
+
+.wide-content {
+  max-width: 945px;
+  margin-top: 55px;
+}
+
+.narrow-content {
+  max-width: 600px;
 }
 
 .wide-content #columns {
