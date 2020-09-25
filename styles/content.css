@@ -5,10 +5,6 @@
   margin: 50px 0 30px 0;
 }
 
-#main-image {
-  width: 100%;
-}
-
 #content-info {
   font-family: var(--sans-font);
 }
@@ -202,6 +198,10 @@
   top: calc(50% - 3px);
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.story-highlight img {
+  width: 100%;
 }
 
 .story-highlight figcaption {
