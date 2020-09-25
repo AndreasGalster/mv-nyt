@@ -1,0 +1,78 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px 15px;
+}
+
+.posts figcaption {
+  font-size: 10px;
+  color: var(--nyt-grey-text);
+  text-align: right;
+}
+
+.posts h5 {
+  font-family: var(--serif-font);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 7px auto;
+}
+
+.posts a {
+  color: black;
+  text-decoration: none;
+}
+
+.posts p {
+  font-size: 12px;
+  color: var(--nyt-grey-text);
+  margin: 4px auto 0;
+  font-family: var(--sans-font);
+}
+
+.posts img {
+  width: 100%;
+}
+
+#recommendations {
+  display: grid;
+  grid-template-columns: [left] 5fr [middle] 2fr [right];
+  grid-gap: 40px;
+  margin-bottom: 80px;
+}
+
+#related-posts {
+  grid-column: left / middle;
+  grid-row: 1 / span 1;
+  border-top: 1px solid black;
+}
+
+#editors-picks {
+  grid-column: left / middle;
+  grid-row: 2 / span 1;
+  border-top: 1px solid black;
+}
+
+#popular-posts {
+  grid-column: middle / right;
+  grid-row: 1 / span 2;
+  border-top: 1px solid black;
+}
+
+#popular-posts li {
+  padding: 15px 0;
+  border-top: 1px solid var(--nyt-grey-bg);
+}
+
+#popular-posts li a {
+  display: block;
+  font-family: var(--serif-font);
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#popular-posts li a:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,45 @@
+/* Header area */
+
+header {
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-bottom: 1px solid var(--nyt-grey-bg);
+  z-index: 1000;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header i {
+  margin: 0 10px;
+}
+
+header a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#comments button,
+#header-buttons button {
+  background: var(--nyt-primary);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 8px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+:root {
+  --nyt-primary: rgb(50, 104, 145);
+  --nyt-grey-text: #666;
+  --nyt-grey-bg: #eee;
+  --header-height: 43px;
+  --serif-font: georgia, "times new roman", times, serif;
+  --sans-font: helvetica, arial, sans-serif;
+}
+
+* {
+  font-family: var(--sans-font);
+}
+
+body {
+  margin: 0;
+  padding-bottom: 100px;
+  padding-top: var(--header-height);
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
