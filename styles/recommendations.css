@@ -1,3 +1,39 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px 15px;
+}
+
+.posts figcaption {
+  font-size: 10px;
+  color: var(--nyt-grey-text);
+  text-align: right;
+}
+
+.posts h5 {
+  font-family: var(--serif-font);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 7px auto;
+}
+
+.posts a {
+  color: black;
+  text-decoration: none;
+}
+
+.posts p {
+  font-size: 12px;
+  color: var(--nyt-grey-text);
+  margin: 4px auto 0;
+  font-family: var(--sans-font);
+}
+
+.posts img {
+  width: 100%;
+}
+
 #recommendations {
   display: grid;
   grid-template-columns: [left] 5fr [middle] 2fr [right];
@@ -39,35 +75,4 @@
 
 #popular-posts li a:hover {
   opacity: 0.7;
-}
-
-.posts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 35px 15px;
-}
-
-.posts figcaption {
-  font-size: 10px;
-  color: var(--nyt-grey-text);
-  text-align: right;
-}
-
-.posts h5 {
-  font-family: var(--serif-font);
-  font-size: 16px;
-  line-height: 1.4;
-  font-weight: 600;
-  margin: 7px auto;
-}
-
-.posts p {
-  font-size: 12px;
-  color: var(--nyt-grey-text);
-  margin: 4px auto 0;
-  font-family: var(--sans-font);
-}
-
-.posts img {
-  width: 100%;
 }
